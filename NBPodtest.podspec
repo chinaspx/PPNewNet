@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "NBPodtest"
+  s.name         = "NBNewNet"
   s.version      = "0.1.1"
   s.summary      = "network"
 
@@ -90,9 +90,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "", "*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
+  s.source_files  = "", "*.{h,m,txt}"
+  # s.exclude_files = "Classes/Exclude"
+ 
   # s.public_header_files = "Classes/**/*.h"
 
 
